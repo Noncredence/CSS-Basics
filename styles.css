@@ -1,0 +1,75 @@
+/* Syle sheet */
+
+
+/* Type selector example */
+p {
+    color: purple;
+}
+
+/* Class selector example */
+.alert-text {
+    color: red;
+    font-size: 40px;
+}
+
+/* ID selector example */
+#red {
+    background-color: red;
+}
+
+/* Grouping selector example */
+/* Shared style declarations */
+.tips,
+.question {
+    color: white;
+    background-color: black;
+}
+/* Unique declarations */
+.tips {
+    font-weight: bold;
+}
+
+.question {
+    font-style: italic;
+}
+
+/* Chaining Selectors */
+.subsection.elements {
+    color:cornflowerblue;
+}
+
+.subsection#answer{
+    color: blue;
+}
+
+/* Descendant combinator example */
+.dialogue .content {
+    font: 25px italic;
+}
+
+/* Colors */
+/* HEX */
+.hex {
+    color:#3498db;
+}
+/* RGB */
+.rgb {
+    color: rgb(52, 152, 219);
+}
+/* HSL */
+.hsl {
+    color: hsl(205, 86%, 57%);
+}
+
+/* Typography */
+
+.typo1 {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.typo2 {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
